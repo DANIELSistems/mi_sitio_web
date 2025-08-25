@@ -3,37 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Horario Semanal</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-    }
-    table {
-      border-collapse: collapse;
-      width: 100%;
-    }
-    th, td {
-      border: 1px solid #444;
-      padding: 10px;
-      text-align: center;
-    }
-    th {
-      background-color: #f2f2f2;
-    }
-    td {
-      height: 50px;
-    }
-    .hora {
-      background-color: #e0e0e0;
-      font-weight: bold;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
-<center>
 <body>
-
-  <h1>Horario Semanal</h1>
-
+  <h1>Mi Horario Semanal</h1>
   <table>
     <tr>
       <th>Hora</th>
@@ -45,11 +18,7 @@
     </tr>
     <tr>
       <td class="hora">6:00am - 12:00pm</td>
-      <td>Colegio</td>
-      <td>Colegio</td>
-      <td>Colegio</td>
-      <td>Colegio</td>
-      <td>Colegio</td>
+      <td colspan="5">Colegio</td>
     </tr>
     <tr>
       <td class="hora">12:00pm - 6:30pm</td>
@@ -61,27 +30,18 @@
     </tr>
     <tr>
       <td class="hora">6:30pm - 9:00pm</td>
-      <td>Futbol</td>
+      <td>Fútbol</td>
       <td>Casa</td>
-      <td>Futbol</td>
+      <td>Fútbol</td>
       <td>Casa</td>
-      <td>Futbol</td>
+      <td>Fútbol</td>
     </tr>
     <tr>
       <td class="hora">9:00pm - 6:00am</td>
-      <td>Casa</td>
-      <td>Casa</td>
-      <td>Casa</td>
-      <td>Casa</td>
-      <td>Casa</td>
+      <td colspan="5">Casa</td>
     </tr>
-    
   </table>
 
-  <hr>
-
-  <a href="index.html">Home</a>
-
+  <a href="index.html" class="btn">🏠 Volver al Inicio</a>
 </body>
-<center>
 </html>
